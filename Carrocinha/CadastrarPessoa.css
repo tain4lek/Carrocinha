@@ -1,0 +1,69 @@
+/* styles-green.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9;
+    color: #2c6b2f;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #a5d6a7;
+    color: #2c6b2f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #66bb6a;
+    margin: 0;
+}
+
+form {
+    background-color: #fff;
+    border: 3px solid #c8e6c9;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2c6b2f;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    background: url('path/to/leaf-icon.png') no-repeat right center;
+    background-size: 24px 24px;
+}
+
+button {
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #81c784;
+}
+
+/* Adicionando ícones para dar um toque de petshop */
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
