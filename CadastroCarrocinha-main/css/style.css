@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/cao-e-gato.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.menu {
+  position: absolute;
+  width: 100%;
+  background: rgba(255, 255, 255, .5);
+  padding: 0 100px;
+  top: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.menu img {
+  float: left;
+  width: 84px;
+}
+
+nav {
+  position: relative;
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 33px 20px;
+  text-decoration: none;
+}
+
+nav ul li ul {
+  display: block;
+  background: rgba(255, 255, 255, .5);
+  min-width: 100px;
+  position: absolute;
+  margin-top: 1px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
+}
+
+nav ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul li ul li a {
+  padding: 10px;
+}
+
+.principal {
+  margin-top: 100px;
+}

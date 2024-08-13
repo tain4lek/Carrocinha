@@ -1,0 +1,3 @@
+ALTER TABLE animal ADD foto VARCHAR(100);
+
+ALTER TABLE pessoa ADD senha VARCHAR(100);
